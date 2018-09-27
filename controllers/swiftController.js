@@ -8,7 +8,7 @@ const orm = require("../config/orm.js");
 
 router.get("/login", function (req, res) {
 
-  res.sendFile(path.join(__dirname, '../public/login.html'));
+  res.sendFile(path.join(__dirname, '../view/login.handlebars'));
 });
 
 router.get("/home", function (req, res) {
