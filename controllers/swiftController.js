@@ -8,7 +8,7 @@ const orm = require("../config/orm.js");
 
 router.get("/login", function (req, res) {
 
-  res.sendFile(path.join(__dirname, '../view/login.handlebars'));
+  res.sendFile(path.join(__dirname, '../public/login.html'));
 });
 
 router.get("/home", function (req, res) {
@@ -39,11 +39,6 @@ router.get("/cart", function (req, res) {
 router.get("/menu", function (req, res) {
 
   res.render("menu");
-});
-
-router.get("/menuitems", function (req, res) {
-
-  res.render("menuitems");
 });
 
 router.get("/menu/coffee", function (req, res) {
