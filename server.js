@@ -21,9 +21,7 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // Import routes and give the server access to them.
-console.log("Process");
-  console.log(process.env.JAWSDB_URL);
-  console.log(process.env);
+
 var routes = require("./controllers/swiftController.js");
 
 app.use(routes);
