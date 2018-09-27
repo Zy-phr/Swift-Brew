@@ -65,7 +65,8 @@ h5 {
     font-size: 1.55rem !important;
 }
 .tile-title {
-    font-size: 9rem !important;
+    font-size: .9rem !important;
+    font-weight: 200 !important;
 }
 
 #productPic {
