@@ -1,4 +1,7 @@
 // Import MySQL connection.
+console.log("Process");
+  console.log(process.env.JAWSDB_URL);
+  console.log(process.env);
 var connection = require("../config/connection.js");
 
 // Helper function for SQL syntax.
