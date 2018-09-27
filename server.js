@@ -21,6 +21,9 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // Import routes and give the server access to them.
+console.log("Process");
+  console.log(process.env.JAWSDB_URL);
+  console.log(process.env);
 var routes = require("./controllers/swiftController.js");
 
 app.use(routes);
@@ -28,8 +31,6 @@ app.use(routes);
 // Start our server so that it can begin listening to client requests.
 app.listen(PORT, function() {
   // Log (server-side) when our server has started
-  console.log("Process");
-  console.log(process.env.JAWSDB_URL);
-  console.log(process.env);
+  
   console.log("Server listening on: http://localhost:" + PORT + "/login");
 });
