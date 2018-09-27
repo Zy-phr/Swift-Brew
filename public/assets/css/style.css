@@ -9,7 +9,6 @@ body {
 
 h1 {
     margin-top: 50px;
-    font-size: 4.5rem !important;
 }
 
 
@@ -92,6 +91,9 @@ h5 {
     bottom: 3rem;
     z-index: 10;
   }
+  .carH {
+    font-size: 4.5rem !important;
+  } 
   .carCap {
     font-weight: 400 !important;
     font-size: 1.5rem !important;
