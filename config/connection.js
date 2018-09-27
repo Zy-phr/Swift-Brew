@@ -3,13 +3,8 @@ var mysql = require("mysql");
 
 var connection;
 
-  console.log("In connection");
-  console.log(process.env.JAWSDB_URL);
-  console.log(process.env);
-
-if(process.env.JAWDB_URL.length > 0) {
-    connection = mysql.createConnection(process.env.JAWDB_URL); 
-    console.log("jawsdb")
+if(process.env.JAWSDB_URL) {
+    connection = mysql.createConnection(process.env.JAWSDB_URL); 
 }else {
     connection = mysql.createConnection({
       host: "localhost",
@@ -18,7 +13,6 @@ if(process.env.JAWDB_URL.length > 0) {
       password: "Zy-phr_24",
       database: "menu_db"
   });
-  console.log("developer")
 };
 
 // Make connection.
