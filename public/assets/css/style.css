@@ -61,6 +61,13 @@ h5 {
     color: #628895;
 }
 
+.product-title {
+    font-size: 1.55rem !important;
+}
+.title-title {
+    font-size: 9rem !important;
+}
+
 #productPic {
     float: right !important;
     width: 125px;
@@ -82,7 +89,9 @@ h5 {
     bottom: 3rem;
     z-index: 10;
   }
-  
+  .carCap {
+    font-weight: bold;
+  }
   /* Declare heights because of positioning of img element */
   .carousel-item {
     height: 23rem;
@@ -96,7 +105,7 @@ h5 {
     height: 32rem;
   }
   .first-slide, .second-slide, .third-slide {
-    opacity: .25;
+    opacity: .6;
   }
   .car-Btn {
     padding: 18px, 30px;
