@@ -5,9 +5,7 @@ var router = express.Router();
 const path = require("path");
 
 
-console.log("Process");
-  console.log(process.env.JAWSDB_URL);
-  console.log(process.env);
+
 const orm = require("../config/orm.js");
 
 router.get("/",function(req,res){
