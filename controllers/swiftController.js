@@ -6,16 +6,16 @@ const path = require("path");
 
 const orm = require("../config/orm.js");
 
-router.get("/",function(req,res){
+// router.get("/",function(req,res){
   
-  res.render("login");
+//   res.render("login");
 
-});
-
-// router.get("/", function (req, res) {
-
-//   res.sendFile(path.join(__dirname, '../public/login.html'));
 // });
+
+router.get("/", function (req, res) {
+
+  res.sendFile(path.join(__dirname, '../public/login.html'));
+});
 
 router.get("/home", function (req, res) {
 
