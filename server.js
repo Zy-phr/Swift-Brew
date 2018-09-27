@@ -28,5 +28,8 @@ app.use(routes);
 // Start our server so that it can begin listening to client requests.
 app.listen(PORT, function() {
   // Log (server-side) when our server has started
+  console.log("Process");
+  console.log(process.env.JAWSDB_URL);
+  console.log(process.env);
   console.log("Server listening on: http://localhost:" + PORT + "/login");
 });
