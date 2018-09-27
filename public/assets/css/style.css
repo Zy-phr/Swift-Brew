@@ -245,6 +245,23 @@ footer {
   }
 
 @media screen and (max-width: 600px) {
+    .product-title {
+        font-size: 1rem !important;
+        font-weight: 600;
+    }
+    .title-title {
+        font-size: .9rem !important;
+        font-weight: 200;
+        font-size: 9rem !important;
+    }
+    
+    #productPic {
+        float: right !important;
+        width: 95px;
+        margin-top: -28px;
+        margin-bottom: 15px;
+        
+    }
     .mainH2 {
         font-size: 15px;
     }
