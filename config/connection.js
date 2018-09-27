@@ -3,11 +3,11 @@ var mysql = require("mysql");
 
 var connection;
 
-  console.log("Process");
+  console.log("In connection");
   console.log(process.env.JAWSDB_URL);
   console.log(process.env);
 
-if(process.env.JAWDB_URL) {
+if(process.env.JAWDB_URL.length > 0) {
     connection = mysql.createConnection(process.env.JAWDB_URL); 
     console.log("jawsdb")
 }else {
