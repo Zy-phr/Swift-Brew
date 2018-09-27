@@ -5,6 +5,7 @@ var connection;
 
 if(process.env.JAWDB_URL) {
     connection = mysql.createConnection(process.env.JAWDB_URL); 
+    console.log("jawsdb")
 }else {
     connection = mysql.createConnection({
       host: "localhost",
@@ -13,6 +14,7 @@ if(process.env.JAWDB_URL) {
       password: "Zy-phr_24",
       database: "menu_db"
   });
+  console.log("developer")
 };
 
 // Make connection.
