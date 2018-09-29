@@ -61,6 +61,13 @@ h5 {
     color: #628895;
 }
 
+.product-title {
+    font-size: 1.55rem !important;
+}
+.title-title {
+    font-size: 9rem !important;
+}
+
 #productPic {
     float: right !important;
     width: 125px;
@@ -82,7 +89,13 @@ h5 {
     bottom: 3rem;
     z-index: 10;
   }
-  
+  .carH {
+    font-size: 3.5rem !important;
+  }
+  .carCap {
+    font-weight: bold;
+    font-size: 1.5rem !important;
+  }
   /* Declare heights because of positioning of img element */
   .carousel-item {
     height: 23rem;
@@ -96,7 +109,7 @@ h5 {
     height: 32rem;
   }
   .first-slide, .second-slide, .third-slide {
-    opacity: .25;
+    opacity: .6;
   }
   .car-Btn {
     padding: 18px, 30px;
@@ -262,6 +275,31 @@ footer {
     }
     h1{
         font-size: 1.8rem;
+    }
+    .carH {
+        font-size: 1.9rem !important;
+    }
+    .carCap {
+        font-size: 1rem !important;
+    }
+    .carousel-item {
+        height: 21rem !important;
+    }
+    .columnImg {
+        width: 60%;
+        height: auto;
+        margin: auto;
+    }
+    .colHead {
+        margin-top: 0px !important;
+        letter-spacing: 3px;
+    }
+    .overlay {
+        width: 60%;
+        margin: auto;
+    }
+    hr {
+        border-top: 2px solid rgba(0,0,0,.1);
     }
     .carousel-caption {
         padding-bottom: 15px;
